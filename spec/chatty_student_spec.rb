@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe "ChattyStudent" do 
   
-  let!(:chatty_student) { ChattyStudent.new }
+  let!(:chatty_student) { ChattyStudent.new("Cathy") }
   
   describe "#hello" do
     it "returns a greeting phrase plus a long chatty phrase" do  

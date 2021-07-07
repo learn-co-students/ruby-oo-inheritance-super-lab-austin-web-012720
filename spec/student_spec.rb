@@ -1,7 +1,7 @@
 require "spec_helper"
 
 describe "Student" do 
-  let!(:student) { Student.new }
+  let!(:student) { Student.new("Sherry") }
   
   describe "#hello" do 
     it "returns a greeting phrase" do 
